@@ -46,7 +46,6 @@ class Movie {
         var col = document.createElement('div')
         col.classList.add('col-sm-3')
         var button = document.createElement('button')
-        $("button").sparkle();
         button.classList.add('btn', 'btn-danger', 'btn-lg', 'btn-block')
         button.innerHTML = this.name
         button.style.marginBottom = '20px'

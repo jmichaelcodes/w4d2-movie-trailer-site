@@ -22,3 +22,8 @@ class Trailer extends Movie {
  var usualSuspects = new Trailer('Usual Suspects', 'oiXdPolca5w');
  var theMartian = new Trailer('The Martian', 'ej3ioOneTy8');
 
+
+$(document).ready(function() {
+ $("button").sparkle();
+});
+
